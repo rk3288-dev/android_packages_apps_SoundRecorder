@@ -110,6 +110,14 @@
                     android:layout_marginLeft="2dip" 
                     android:layout_marginRight="50dip" />
 
+				<Button android:id="@+id/acceptButtonSD"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/accept_sd"
+                    android:layout_weight="1"
+                    android:layout_marginRight="50dip"
+                    android:layout_marginLeft="50dip" />
+
                 <Button android:id="@+id/acceptButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -166,6 +174,11 @@
                 android:layout_height="match_parent" 
                 style="@style/MediaButton"
                 android:src="@drawable/stop" />
+
+            <ImageButton android:id="@+id/fileListButton"
+                android:layout_height="match_parent"
+                style="@style/MediaButton"
+                android:src="@drawable/recording_file_list" />
 
         </LinearLayout>
 
